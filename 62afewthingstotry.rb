@@ -7,11 +7,10 @@ class Jerkboss
 
 	else
 		puts "What do you mean you want a raise?!"
-	end 
 
-		if guess == "I really need the money!"
+		else guess == "I really need the money!"
 		puts "Are you kidding me, you are fired!"
-		else 
+		elsif
 		puts "You can consider yourself fired!"
 	    end 
 end

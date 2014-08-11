@@ -12,7 +12,16 @@ puts "What is your last name?"
 name = gets.chomp
 puts 'Your last name is ' + name + ' What a cool last name!'
 
-Greeting = 'Nice to meet you Neil Kiran Torres'
-puts Greeting 
+puts 'Hello, what is your full name?'
+name = gets.chomp
+puts 'Hello, ' + name + '.'
+
+if name == 'Neil Kiran Torres'
+	puts 'What a great name!'
+end 
+
+
+
+
 
 
